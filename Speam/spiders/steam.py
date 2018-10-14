@@ -10,21 +10,21 @@ class SteamSpider(scrapy.Spider):
     allowed_domains = ['steampowered.com']
 
     cookie = {
-        'browserid': '1385312819195684987',
-        'sessionid': 'bb6ced5f54e3ef874eaac71a',
-        'timezoneOffset': '76561198294886228%7C%7Cf2ca5af3241a10ad49cb03206063287b',
-        '_ga': 'GA1.2.481920127.1539439292',
-        '_gid': 'GA1.2.1089836406.1539439292',
+        'browserid': '',
+        'sessionid': '',
+        'timezoneOffset': '',
+        '_ga': '',
+        '_gid': '',
         'Steam_Language': 'english',
-        'steamMachineAuth76561198294886228': '4D1CD43BFC17166042817E50D9E6B78A8FBDDD3B',
-        'steamLoginSecure': '76561198294886228%7C%7C57AE2673E67D8A90CA5437C524FDF1484AB6558C',
-        'steamRememberLogin': '76561198294886228%7C%7Cf2ca5af3241a10ad49cb03206063287b',
-        'app_impressions': '838350@1_7_7_230_150_1|736190@1_7_7_230_150_1|570@1_7_7_230_150_1|578080@1_7_7_230_150_1|730@1_7_7_230_150_1|318830@1_7_7_230_150_1996|318820@1_7_7_230_150_1996|318170@1_7_7_230_150_1996|954800@1_7_7_230_150_1996|949642@1_7_7_230_150_1996|222880@1_5_9__300|10@1_5_9__300|240@1_5_9__300|730@1_1050_curatorsreviewing__1050|222880@1_5_9__300|10@1_5_9__300|240@1_5_9__300|359550@1_5_9__300|291480@1_5_9__300|730@1_1050_curatorsreviewing__1050|359550@1_5_9__300|291480@1_5_9__300|222880@1_5_9__300|10@1_5_9__300|240@1_5_9__300',
-        'birthtime': '869414401',
-        'lastagecheckage': '21-July-1997',
-        'recentapps': '%7B%22730%22%3A1539485087%2C%22954800%22%3A1539481250%2C%22242760%22%3A1539479850%7D',
-        'review_beta_enabled': 'false',
-        'review_purchase_type_filter': 'steam'
+        'steamMachineAuth76561198294886228': '',
+        'steamLoginSecure': '',
+        'steamRememberLogin': '',
+        'app_impressions': '',
+        'birthtime': '',
+        'lastagecheckage': '',
+        'recentapps': '',
+        'review_beta_enabled': '',
+        'review_purchase_type_filter': ''
     }
 
     def start_requests(self):
